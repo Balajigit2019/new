@@ -1,0 +1,9 @@
+task zip(type: Zip){
+   from ('.') {
+         include "*"
+         include "file*"
+   }
+   destinationDir(file("zip"))
+   baseName "tiktok"
+}
+     
