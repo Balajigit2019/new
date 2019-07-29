@@ -1,3 +1,5 @@
+task build
+
 task zip(type: Zip){
    from ('.') {
          include "*"
